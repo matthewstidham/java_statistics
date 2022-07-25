@@ -9,5 +9,5 @@ def sieve(n):
 
 
 if __name__ == "__main__":
-    limit = 10000000
+    limit = 10 ** 9
     print(sieve(limit))

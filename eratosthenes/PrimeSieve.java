@@ -33,7 +33,7 @@ class SieveOfEratosthenes {
     // Driver Code
     public static void main(String[] args)
     {
-        int n = 10000000;
+        int n = 1_000_000_000;
         System.out.print("Following are the prime numbers ");
         System.out.println("smaller than or equal to " + n);
         SieveOfEratosthenes g = new SieveOfEratosthenes();
